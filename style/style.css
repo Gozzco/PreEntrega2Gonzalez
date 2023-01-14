@@ -1,0 +1,242 @@
+/*----General---*/
+*{
+    margin:0;
+    padding:0;
+}
+
+*{
+    background-color: rgb(212, 189, 157);
+}
+
+/*----Estilos tipograficos----*/
+
+/* font-family: 'Marcellus', serif;
+font-family: 'Noto Serif', serif;
+font-family: 'Raleway', sans-serif; */
+
+        /*-----Navegacion-----*/
+
+.header__logo{
+    display: block;
+    padding: 30px;
+    background-color: rgb(70, 67, 67);
+}
+
+.header__listaPrincipal a{
+    list-style-type: none;
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(70, 67, 67);    
+}
+
+.header__listaPrincipal a:visited {
+    color: rgb(255, 255, 255);
+}
+
+.header__listaSecundaria li{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Raleway', sans-serif;
+}
+
+header{
+    background-color: rgb(70, 67, 67);
+}
+
+        /*-----Cuerpo-----*/
+
+/*----Cuerpo INDEX---*/
+
+.main__textoPrincipal{
+    font-family: 'Marcellus', serif;
+    font-size: 60px;
+    color: white;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(70, 67, 67);
+    }
+
+.main__presentacion{
+    display: block;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    text-align: top;
+    color: white;
+    padding: 20px;
+    background-color: rgb(70, 67, 67);
+}
+
+.bullets__parrafoenvio{
+    font-family: 'Raleway', sans-serif;
+    padding: 10px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.bullets__imagenenvio{
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#categorias {
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+/*----Cuerpo Productos---*/
+
+.header__productos__listado{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+    font-size: 25px;
+    border: 5px;
+    border-style:ridge;
+    border-color: rgb(255, 255, 255);
+}
+
+.header__productos__listado i{
+    padding: 5px;
+    margin: 10px;
+}
+
+/*----Cuerpo Items---*/
+
+.producto__presentacion{
+    display: inline-block;
+    padding: 20px;
+    margin: 10px;
+}
+
+.producto__titulo{
+    color: white;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+    padding: 5px;
+}
+
+.botoncompra{
+    display: inline-block;
+    background-color: rgb(250, 165, 9);
+    width: 600px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    color: white;
+}
+
+.producto__descripcion{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    text-align: top;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+.producto__descripcion__relacionados{
+    padding: 10px;
+    margin: 20px;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/*---Cuerpo nosotros---*/
+
+#nosotros__laEmpresa img{
+    width: 100%;
+    height: auto;
+}
+
+.socios img{
+    border-radius: 50%;
+    padding: 10px;
+    margin: 30px;
+}
+
+.socios p{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    text-align: top;
+    margin: 10px;
+    padding: 20px;
+    font-size: 22px;
+}
+
+
+/*---Cuerpo FAQS---*/
+
+.preguntas__frecuentes{
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+    text-align: left;
+    height: 50px;
+    margin: 30px;
+    padding: 40px;
+    font-size: 22px;
+    border: 5px;
+    border-style:ridge;
+    border-color: rgb(255, 255, 255);
+}
+
+
+          /*----Pie-----*/
+
+#footer{
+    background-color: rgb(70, 67, 67);   
+}
+
+.footer__logo{
+    margin: 40px;
+}
+
+.footer__enlacesInternos{
+    list-style: none;
+    display: inline;
+    float: right;
+    padding: 10px;
+    margin: 20px;
+
+}
+
+.footer__enlacesInternos li{
+    padding: 15px;
+    display: inline-block;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/*----Redes----*/
+
+.footer__enlacesredes{
+    list-style: none;
+    display: inline;
+    float: right;
+    color: black;
+    padding: 20px;
+    margin: 20px;
+    border: 10px;
+}
+
+.footer__enlacesredes a{
+    padding: 15px;
+}

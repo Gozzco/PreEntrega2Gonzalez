@@ -51,6 +51,7 @@ header{
     margin: 10px;
     border: 10px;
     padding: 0px;
+    transition: all 0.5s ease;
 }
 
 .header__listaSecundaria{
@@ -191,6 +192,10 @@ main{
     display: flex;
     justify-content: center;
     align-content: stretch;
+}
+
+.categoriasprod a{
+    transition: all 0.5s ease;
 }
 
 /*----Cuerpo Productos---*/
@@ -355,4 +360,59 @@ main{
 
 .header__listaPrincipal a:visited {
     color: rgb(255, 255, 255);
+}
+
+.header__listaPrincipal a:hover{
+    cursor: pointer;
+    color: black;
+    background: white;
+}
+
+.categoriasprod a:hover {
+    scale: 110%;
+}
+
+/*-----Media Queries-----------*/
+
+@media screen and (max-width: 768px){
+    header{
+        text-align: center;
+        grid-column: 1 / -1;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 1fr 0.5fr;
+        gap: 0.5em;
+        background-color: rgb(70, 67, 67);
+        width: 80%;
+        height: 8em;
+    }
+
+    .main__textoPrincipal{
+        display: flex;
+        justify-content: center;
+        font-size: xx-large;
+    }
+
+    .main__presentacion{
+        display: flex;
+        justify-content: center;
+        grid-column: auto;
+        font-size: medium;
+    }
+
+    #carouselExampleCaptions{
+        height: 4em;
+    }
+
+    .bullets__envio{
+        grid-column: 1/-1;
+        grid-row: 2/3;
+    }
+
+    .bullets__envio2{
+        display: flex;
+    }
+
+    .categoriasprod{
+        grid-column: 1/-1;
+    }
 }

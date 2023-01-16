@@ -13,6 +13,8 @@
     <!-----ICONOS----->
     <script src="https://kit.fontawesome.com/1afc1c8dcd.js" crossorigin="anonymous"></script>
     <link rel="shortcut icon" href="./assets/favicon.jpg" type="image/x-icon">
+    <!-----Bootstrap----->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
     <!------MI CSS----->
     <link rel="stylesheet" href="./style/style.css">
 
@@ -22,115 +24,163 @@
 
     <!----Comienza la cabecera-->
 
-    <header id="header">
+    <div class="container-fluid container_header">
+        <div class="row">
+            <header id="header"> 
 
-        <img class="header__logo" src="./assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar">
+                <img class="header__logo" src="./assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar">
 
-        <nav class="header__navegacion">
-            <ul class="header__listaPrincipal">
-                <a href="./pages/productos.html">Productos</a>
-                <a href="./pages/nosotros.html">Quiénes somos?</a>
-                <a href="./pages/faq.html">Preguntas frecuentes</a>
-                <a href="">Contactos</a>
-            </ul>
-            <ul class="header__listaSecundaria">
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li>Crear cuenta</li>
-                <li>Inicia sesión</li>
-            </ul>
-        </nav>
+                <ul class="header__listaSecundaria">
+                    <li><i class="fa-solid fa-cart-shopping"></i></li>
+                    <li>Crear cuenta</li>
+                    <li>Inicia sesión</li>
+                </ul>
 
-    </header>
+                <nav class="header__navegacion">
+                    <ul class="header__listaPrincipal">
+                        <a href="./pages/productos.html">Productos</a>
+                        <a href="./pages/nosotros.html">Quiénes somos?</a>
+                        <a href="./pages/faq.html">Preguntas frecuentes</a>
+                        <a href="">Contactos</a>
+                    </ul>
+                </nav>
+            </header>
+            
+        
+                <!----Presentación de la marca----->
 
-    <!----Presentación de la marca----->
+            <main>
 
-    <main>
+                <h1 class="main__textoPrincipal">
+                    Lorem ipsum dolor sit amet 
+                </h1>
+                <p class="main__presentacion">
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi odio quos dolorem molestias nemo,<br> a dolores quam sunt, dolorum labore non mollitia pariatur distinctio tempore iure officiis, doloribus nostrum?
+                </p>
 
-        <h1 class="main__textoPrincipal">
-            Lorem ipsum dolor sit amet 
-        </h1>
-        <p class="main__presentacion">
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil nisi odio quos dolorem molestias nemo,<br> a dolores quam sunt, dolorum labore non mollitia pariatur distinctio tempore iure officiis, doloribus nostrum?
-        </p>
+            </main>
+            
 
-    </main>
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="./assets/3000x800.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Cuadros</h5>
+                      <p>Cuadros de todos los colores y estilos para adornar tus espacios</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/3000x800.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Sillas</h5>
+                      <p>Tenemos la silla que buscas</p>
+                    </div>
+                  </div>
+                  <div class="carousel-item">
+                    <img src="./assets/3000x800.jpg" class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                      <h5>Almohadones</h5>
+                      <p>Si buscas almohadones comodos, lisos, con patrones, con texturas, estás en el lugar correcto</p>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+            </div>
 
-    <!------Intermedio con detalles de envíos----->
+            <!------Intermedio con detalles de envíos----->
 
-    <section id="bullets">
+            <section id="bullets">
 
-        <div class="bullets__envio">
-            <img class="bullets__imagenenvio" src="./assets/80x80.jpg" alt="icono de vehiculo de envio">
-            <p class="bullets__parrafoenvio">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias maiores a, commodi amet id et illum reiciendis.
-            </p>
+                <div class="bullets__envio">
+                    <img class="bullets__imagenenvio" src="./assets/80x80.jpg" alt="icono de vehiculo de envio">
+                </div>
+                <div class="bullets__parrafoenvio">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore maiores atque omnis dolores fugit alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+                <div class="bullets__envio2">
+                    <img class="bullets__imagenenvio2" src="./assets/80x80.jpg" alt="icono de tarjetas">
+                </div>
+
+                <div class="bullets__parrafoenvio2">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore maiores atque omnis dolores fugit alias Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    </p>
+                </div>
+
+            </section>
+
+            <!-----Categorias de productos------->
+
+            <section id="categorias">
+
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Almohadones"></a>
+                </div>
+
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Decoracion"></a>
+                </div>
+                    
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Cuadros"></a>
+                </div>    
+                    
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Mantas"></a>
+                </div>
+
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Sillas"></a>
+                </div>
+
+                <div class="categoriasprod">
+                    <a href="./pages/productos.html"><img src="./assets/320x466.jpg" alt="Mascotas"></a>
+                </div>
+
+            </section>
+
+            <!-----Cierre de la página----->
+
+            <footer id="footer">
+
+                <img class="footer__logo" src="./assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
+
+                <ul class="footer__enlacesredes">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a>
+                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <a href=""><i class="fa-solid fa-shop"></i></a>
+                </ul>
+
+                <ul class="footer__enlacesInternos">
+                    <li>Preguntas frecuentes</li>
+                    <li>Contacto</li>
+                    <li><a href="#header">Ir arriba</a></li>
+                </ul>
+
+            </footer>
         </div>
+    </div>
 
-        <div class="bullets__envio">
-            <img class="bullets__imagenenvio" src="./assets/80x80.jpg" alt="icono de tarjetas">
-            <p class="bullets__parrafoenvio">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempore maiores atque omnis dolores fugit alias 
-            </p>
-        </div>
+    <!-----------Script------------->
 
-    </section>
-
-    <!-----Categorias de productos------->
-
-    <section id="categorias">
-
-        <img class="categorias__almohadones" src="./assets/320x466.jpg" alt="Almohadones">
-            <p>
-                Almohadones
-            </p>
-
-        <img class="categorias__decoracion" src="./assets/320x466.jpg" alt="Decoración">
-            <p>
-                Decoración
-            </p>
-
-        <img class="categorias__cuadros" src="./assets/320x466.jpg" alt="Cuadros">
-            <p>
-                Cuadros
-            </p>
-
-        <img class="categorias__mantas" src="./assets/320x466.jpg" alt="Mantas">
-            <p>
-                Mantas
-            </p>
-
-        <img class="categorias__sillas" src="./assets/320x466.jpg" alt="Sillas">
-            <p>
-                Sillas
-            </p>
-
-        <img class="categorias__mascotas" src="./assets/320x466.jpg" alt="Mascotas">
-            <p>
-                Mantas
-            </p>
-
-    </section>
-
-    <!-----Cierre de la página----->
-
-    <footer id="footer">
-
-        <img class="footer__logo" src="./assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
-
-        <ul class="footer__enlacesInternos">
-            <li>Preguntas frecuentes</li>
-            <li>Contacto</li>
-            <li><a href="#header">Ir arriba</a></li>
-        </ul>
-
-        <ul class="footer__enlacesredes">
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-twitter"></i></a>
-            <a href=""><i class="fa-solid fa-shop"></i></a>
-        </ul>
-
-    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
     
 </body>
 </html>

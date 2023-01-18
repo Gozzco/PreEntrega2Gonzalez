@@ -23,9 +23,15 @@
 
     <!----Comienza la cabecera-->
 
-    <header id="header">
+    <header id="header"> 
 
-        <a class="header__logo" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+        <a class="header__logo__link" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+
+        <ul class="header__listaSecundaria">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li>Crear cuenta</li>
+            <li>Inicia sesión</li>
+        </ul>
 
         <nav class="header__navegacion">
             <ul class="header__listaPrincipal">
@@ -34,47 +40,61 @@
                 <a href="faq.html">Preguntas frecuentes</a>
                 <a href="">Contactos</a>
             </ul>
-            <ul class="header__listaSecundaria">
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li>Crear cuenta</li>
-                <li>Inicia sesión</li>
-            </ul>
         </nav>
-
     </header>
 
     <!-----Preguntas------>
 
-    <section id="FAQs">
+    <section class="faqs">
 
-        <div>
-            <p class="preguntas__frecuentes">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias?
-            </p>
+        <button class="pregunta" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePregunta" aria-expanded="false" aria-controls="collapsePregunta">
+            Pregunta sobre temas referidos a la empresa, su operatoria, funcionamiento, detalles referidos a ventas e info relevante al comprador
+          </button>
+        </p>
+        <div class="collapse" id="collapsePregunta">
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias
+          </div>
         </div>
 
-        <div>
-            <p class="preguntas__frecuentes">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias?
-            </p>
+        <button class="pregunta2" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePregunta2" aria-expanded="false" aria-controls="collapsePregunta2">
+            Pregunta sobre temas referidos a la empresa, su operatoria, funcionamiento, detalles referidos a ventas e info relevante al comprador
+          </button>
+        </p>
+        <div class="collapse" id="collapsePregunta2">
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias
+          </div>
         </div>
 
-        <div>
-            <p class="preguntas__frecuentes">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias?
-            </p>
+        <button class="pregunta3" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePregunta3" aria-expanded="false" aria-controls="collapsePregunta3">
+            Pregunta sobre temas referidos a la empresa, su operatoria, funcionamiento, detalles referidos a ventas e info relevante al comprador
+          </button>
+        </p>
+        <div class="collapse" id="collapsePregunta3">
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias
+          </div>
         </div>
 
-        <div>
-            <p class="preguntas__frecuentes">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias?
-            </p>
+        <button class="pregunta4" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePregunta4" aria-expanded="false" aria-controls="collapsePregunta4">
+            Pregunta sobre temas referidos a la empresa, su operatoria, funcionamiento, detalles referidos a ventas e info relevante al comprador
+          </button>
+        </p>
+        <div class="collapse" id="collapsePregunta4">
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias
+          </div>
         </div>
 
-        <div>
-            <p class="preguntas__frecuentes">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias?
-            </p>
+        <button class="pregunta5" type="button" data-bs-toggle="collapse" data-bs-target="#collapsePregunta5" aria-expanded="false" aria-controls="collapsePregunta5">
+            Pregunta sobre temas referidos a la empresa, su operatoria, funcionamiento, detalles referidos a ventas e info relevante al comprador
+          </button>
+        </p>
+        <div class="collapse" id="collapsePregunta5">
+          <div class="card card-body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, aspernatur. Ipsam, iste animi sequi officia rem quisquam sapiente labore, unde recusandae ipsa quis laudantium! Quia ipsum maxime necessitatibus voluptatum alias
+          </div>
         </div>
 
     </section>
@@ -85,17 +105,17 @@
 
         <img class="footer__logo" src="../assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
 
-        <ul class="footer__enlacesInternos">
-            <li>Preguntas frecuentes</li>
-            <li>Contacto</li>
-            <li><a href="#header">Ir arriba</a></li>
-        </ul>
-
         <ul class="footer__enlacesredes">
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-solid fa-shop"></i></a>
+        </ul>
+
+        <ul class="footer__enlacesInternos">
+            <li>Preguntas frecuentes</li>
+            <li>Contacto</li>
+            <li><a href="#header">Ir arriba</a></li>
         </ul>
 
     </footer>

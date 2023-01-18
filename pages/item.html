@@ -23,9 +23,15 @@
 
     <!----Comienza la cabecera-->
 
-    <header id="header">
+    <header id="header"> 
 
-        <a class="header__logo" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+        <a class="header__logo__link" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+
+        <ul class="header__listaSecundaria">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li>Crear cuenta</li>
+            <li>Inicia sesión</li>
+        </ul>
 
         <nav class="header__navegacion">
             <ul class="header__listaPrincipal">
@@ -34,13 +40,7 @@
                 <a href="faq.html">Preguntas frecuentes</a>
                 <a href="">Contactos</a>
             </ul>
-            <ul class="header__listaSecundaria">
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li>Crear cuenta</li>
-                <li>Inicia sesión</li>
-            </ul>
         </nav>
-
     </header>
 
     <!------Producto----->
@@ -55,16 +55,14 @@
 
         </div>
 
-    </Section>
-
-    <section>
-
-        <div>
-            <p class="producto__descripcion">
+        <div class="producto__descripcion">
+            <p>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. At dignissimos vel, quasi molestiae nihil laudantium assumenda aliquid libero itaque laboriosam quae, est quo repellendus. Vel quod debitis nesciunt? Ad, esse.
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus error quia ea voluptatibus est deserunt, iste, sunt doloremque libero nostrum quibusdam non dignissimos cum deleniti adipisci exercitationem a vitae illum.
                 
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati accusamus nemo consequatur eligendi, accusantium, excepturi sequi ab fugit tempore hic ad, quaerat consequuntur. Aspernatur quia quae provident hic exercitationem quos.
+
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et, enim magnam amet qui consequatur error non repellat iusto exercitationem labore nulla reprehenderit dolore ipsum porro neque. Debitis at soluta vitae!
             </p>
         </div>
 
@@ -73,9 +71,11 @@
 
     <!-----Productos relacionados------->
     
-    <section id="item__productos__relacionados">
+    
 
         <h2 class="producto__descripcion__relacionados">Productos relacionados</h2>
+
+        <section id="item__productos__relacionados">
         
         <div class="header__productos__listado">
             <a href="/pages/item.html"><img src="../assets/320x320.jpg" alt="Producto 1"></a>
@@ -110,17 +110,17 @@
 
         <img class="footer__logo" src="../assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
 
-        <ul class="footer__enlacesInternos">
-            <li>Preguntas frecuentes</li>
-            <li>Contacto</li>
-            <li><a href="#header">Ir arriba</a></li>
-        </ul>
-
         <ul class="footer__enlacesredes">
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-solid fa-shop"></i></a>
+        </ul>
+
+        <ul class="footer__enlacesInternos">
+            <li>Preguntas frecuentes</li>
+            <li>Contacto</li>
+            <li><a href="#header">Ir arriba</a></li>
         </ul>
 
     </footer>

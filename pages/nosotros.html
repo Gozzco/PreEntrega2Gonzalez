@@ -23,9 +23,15 @@
 
     <!----Comienza la cabecera-->
 
-    <header id="header">
+    <header id="header"> 
 
-        <a class="header__logo" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+        <a class="header__logo__link" href="../index.html"><img src="../assets/200x50.jpg" alt="logo de Needo empresa de decoración para el hogar"></a>
+
+        <ul class="header__listaSecundaria">
+            <li><i class="fa-solid fa-cart-shopping"></i></li>
+            <li>Crear cuenta</li>
+            <li>Inicia sesión</li>
+        </ul>
 
         <nav class="header__navegacion">
             <ul class="header__listaPrincipal">
@@ -34,13 +40,7 @@
                 <a href="faq.html">Preguntas frecuentes</a>
                 <a href="">Contactos</a>
             </ul>
-            <ul class="header__listaSecundaria">
-                <li><i class="fa-solid fa-cart-shopping"></i></li>
-                <li>Crear cuenta</li>
-                <li>Inicia sesión</li>
-            </ul>
         </nav>
-
     </header>
 
     <!------Reseña histórica de la compañía----->
@@ -62,17 +62,23 @@
     <!-----Socios------->
         <section id="nosotros__socios">
 
-            <div class="socios">
+            <div class="socios1">
                 <img src="../assets/320x320.jpg" alt="socio Fulanito Perez">
+            
+                <div class="socios__parrafo1">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores possimus nostrum iure repellat at dolores dolore doloremque sapiente praesentium ab. Pariatur id amet eos praesentium doloremque dignissimos temporibus nostrum perspiciatis.
                 </p>
+                </div>
             </div>
 
-            <div class="socios">
+            <div class="socios2">
                 <img src="../assets/320x320.jpg" alt="socio Menganito Perez">
+                <div class="socios__parrafo2">
                 <p>
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maiores possimus nostrum iure repellat at dolores dolore doloremque sapiente praesentium ab. Pariatur id amet eos praesentium doloremque dignissimos temporibus nostrum perspiciatis.
+                </p>
+                </div>
             </div>
 
     </section>
@@ -84,17 +90,17 @@
 
         <img class="footer__logo" src="../assets/200x50.jpg" alt="Logo de Needo venta de deco para el hogar">
 
-        <ul class="footer__enlacesInternos">
-            <li>Preguntas frecuentes</li>
-            <li>Contacto</li>
-            <li><a href="#header">Ir arriba</a></li>
-        </ul>
-
         <ul class="footer__enlacesredes">
             <a href=""><i class="fa-brands fa-instagram"></i></a>
             <a href=""><i class="fa-brands fa-facebook"></i></a>
             <a href=""><i class="fa-brands fa-twitter"></i></a>
             <a href=""><i class="fa-solid fa-shop"></i></a>
+        </ul>
+
+        <ul class="footer__enlacesInternos">
+            <li>Preguntas frecuentes</li>
+            <li>Contacto</li>
+            <li><a href="#header">Ir arriba</a></li>
         </ul>
 
     </footer>
